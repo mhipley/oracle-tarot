@@ -77,8 +77,8 @@ function newSelection() {
     var randomObject = objects[Math.floor(Math.random() * (objects.length))];
     var objectUrl = "./assets/objects/" + randomObject;
 
-    // var randomPeoplePlaces = peoplePlaces[Math.floor(Math.random() * (peoplePlaces.length))];
-    // var peoplePlacesUrl = "./assets/people-places/" + randomPeoplePlaces;
+    var randomPeoplePlaces = peoplePlaces[Math.floor(Math.random() * (peoplePlaces.length))];
+    var peoplePlacesUrl = "./assets/people-places/" + randomPeoplePlaces;
 
     var randomSituation = situations[Math.floor(Math.random() * (situations.length))];
     var situationUrl = "./assets/situations/" + randomSituation;
@@ -92,7 +92,7 @@ function newSelection() {
     // audio.play();
 
     document.getElementById('objectsImg').src = objectUrl;
-    // document.getElementById('peoplePlacesImg').src = peoplePlacesUrl;
+    document.getElementById('peoplePlacesImg').src = peoplePlacesUrl;
     document.getElementById('situationsImg').src = situationUrl;
     document.getElementById('valuesImg').src = valueUrl;
 
