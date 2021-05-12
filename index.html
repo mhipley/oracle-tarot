@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="flexboxgrid.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Tarot Card Selector</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+                <h1>THE ORACLE FOR TRANSFEMINIST TECHNOLOGIES RANDOM CARD GENERATOR
+                </h1>
+            </div>
+            <div class="col-xs-12">
+                <button onclick="newSelection()" id="selectButton">Reveal my fate!</button>
+            </div>            
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div id="objects" >
+                            
+                            <img id="objectsImg" src="./assets/objects/_objects.jpg">
+                            <h3>Object</h3>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div id="situations" class="card">
+                            
+                            <img id="situationsImg" src="./assets/situations/_situations.jpg">
+                            <h3>Situation</h3>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div id="values" >
+                            
+                            <img id="valuesImg" src="./assets/values/_values.jpg">
+                            <h3>Value</h3>
+                        </div>
+                    </div>
+                    <!-- <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div id="peoplePlaces">
+                            <label>People and Places</label>
+                            <img id="peoplePlacesImg">
+                        </div>
+                    </div> -->
+                </div>
+
+            </div>
+            
+        </div>
+
+
+
+        
+
+        <script src="script.js"></script>
+    </div>
+</body>
+</html>

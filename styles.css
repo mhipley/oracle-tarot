@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
+
+@font-face {
+    font-family: "Sinistre";
+    src: url("./assets/fonts/Sinistre-StCaroline.woff2") format("woff2"),
+         url("./assets/fonts/Sinistre-StCaroline.woff") format("woff");
+  }
+
+  
+
+html {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Sinistre;
+}
+
+img {
+    width: 100%;
+}
+
+.card {
+}
+
+button {
+    font-size: 1.2rem;
+    border: 2px solid white;
+    width: auto;
+    background: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    margin: 1rem 0;
+    padding: 1rem;
+}
