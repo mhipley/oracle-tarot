@@ -75,16 +75,16 @@ var audio = new Audio('./assets/tada.mp3');
 function newSelection() {
 
     var randomObject = objects[Math.floor(Math.random() * (objects.length))];
-    var objectUrl = "./assets/objects/" + randomObject;
+    var objectUrl = "/assets/objects/" + randomObject;
 
     var randomPeoplePlaces = peoplePlaces[Math.floor(Math.random() * (peoplePlaces.length))];
-    var peoplePlacesUrl = "./assets/people-places/" + randomPeoplePlaces;
+    var peoplePlacesUrl = "/assets/people-places/" + randomPeoplePlaces;
 
     var randomSituation = situations[Math.floor(Math.random() * (situations.length))];
-    var situationUrl = "./assets/situations/" + randomSituation;
+    var situationUrl = "/assets/situations/" + randomSituation;
 
     var randomValue = values[Math.floor(Math.random() * (values.length))];
-    var valueUrl = "./assets/values/" + randomValue;
+    var valueUrl = "/assets/values/" + randomValue;
 
 
     // audio.load();
