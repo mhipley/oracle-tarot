@@ -13,6 +13,27 @@ html {
     color: white;
     text-align: center;
     font-size: 12px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+
+}
+
+p {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 2rem;
+    margin-bottom: 5rem;
+    margin-top: 1rem;
+}
+
+a {
+    color: white;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: hotpink;
 }
 
 h1, h2, h3, h4, h5, h6 {
